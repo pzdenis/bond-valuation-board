@@ -15,5 +15,3 @@ OAS
 Kreditspread-Modelle
 Konstruktion von Zinskurven
 Key-Rate-Duration
-
-Übersetzt mit DeepL.com (kostenlose Version)
