@@ -1,40 +1,35 @@
-# Bond Valuation Board
+Interaktive R-Shiny-Anwendung zur Bewertung festverzinslicher Wertpapiere und zur Simulation von Anleiheportfolios.
 
-Interactive R Shiny application for fixed-income valuation and bond portfolio simulation.
+V1 bietet zwei Arbeitsbereiche: „Anleihebewertung“ und „Portfoliosimulation“. Die Anwendung läuft eigenständig und verwendet unter Linux und Windows projektbezogene Pfade. Die Benutzeroberfläche orientiert sich optisch am „Bond Spread Monitor“, wobei Code und Daten getrennt bleiben.
 
-V1 provides two workspaces: **Bond Valuation** and **Portfolio Simulation**. It runs independently and uses project-relative paths on Linux and Windows. The interface takes visual inspiration from the Bond Spread Monitor while keeping its code and data separate.
+Funktionen
+Bewertung festverzinslicher Anleihen
+Clean Price / Dirty Price
+Rendite bis zur Fälligkeit (YTM)
+Aufgelaufene Zinsen
+Macaulay-Duration
+Modifizierte Duration
+DV01
+Konvexität
+Interaktive Preis-/Rendite-Visualisierung
+Cashflow-Analyse durch explizite Cashflow-Generierung und diskontierte Barwerte in der Bewertungs-Engine
+Simulation von Anleihenportfolios mit 1–10 Positionen
+Explizite Long-/Short-Positionen
+Gleichgewichtete und nach Marktwert gewichtete Portfolios
+Portfolio-DV01, einschließlich vorzeichenbehafteter und Bruttobeiträge
+Parallele Renditeschock-Simulationen
+Durations- und Durations-+-Konvexitäts-Näherungen im Vergleich zur vollständigen Neubewertung
+Cashflows werden intern berechnet; V1 zeigt keine Cashflow-Tabelle an und bietet keinen Cashflow-Export an. Das Portfolio verfügt über ein eigenes Formular zum Hinzufügen/Bearbeiten und ist nicht von Eingaben in der Seitenleiste für einzelne Anleihen abhängig.
 
-## Features
+Einschränkungen
 
-- Fixed-rate bond valuation
-- Clean / Dirty Price
-- Yield to Maturity (YTM)
-- Accrued Interest
-- Macaulay Duration
-- Modified Duration
-- DV01
-- Convexity
-- Interactive Price/Yield visualization
-- Cashflow analysis through explicit cashflow generation and discounted present values in the valuation engine
-- Multi-bond portfolio simulation with 1–10 positions
-- Explicit Long / Short positions
-- Equal Weighted and Market Value Weighted portfolios
-- Portfolio DV01, including signed and gross contributions
-- Parallel yield-shock simulations
-- Duration and Duration + Convexity approximations compared with Full Repricing
+V1 unterstützt nicht:
 
-Cashflows are calculated internally; V1 does not display a cashflow table or offer a cashflow export. The portfolio has its own add/edit form and does not depend on single-bond sidebar inputs.
+Variabel verzinsliche Anleihen
+Kündbare Anleihen
+OAS
+Kreditspread-Modelle
+Konstruktion von Zinskurven
+Key-Rate-Duration
 
-
-Limitations
-
-V1 does not support:
-
-- Floating Rate Notes
-- Callable Bonds
-- OAS
-- Credit Spread Models
-- Yield Curve Construction
-- Key Rate Duration
-
-
+Übersetzt mit DeepL.com (kostenlose Version)
