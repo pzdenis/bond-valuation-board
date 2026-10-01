@@ -1,0 +1,16 @@
+# Local R session and IDE state
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+Rplots.pdf
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Local logs and credentials
+*.log
+.env
+.env.*
+!.env.example
