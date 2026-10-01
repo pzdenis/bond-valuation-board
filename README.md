@@ -4,8 +4,7 @@ Die erste Version bietet zwei Arbeitsbereiche: „Anleihebewertung“ und „Por
 
 Funktionen: Bewertung festverzinslicher plain vanilla bonds
 
-Einschränkungen:
-V_1 unterstützt nicht:
+Einschränkungen - V_1 unterstützt nicht:
 
 Variabel verzinsliche Anleihen
 Kündbare Anleihen
