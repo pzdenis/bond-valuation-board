@@ -2,12 +2,10 @@ Interaktive R-Shiny-Anwendung zur Bewertung festverzinslicher Wertpapiere und zu
 
 Die erste Version bietet zwei Arbeitsbereiche: „Anleihebewertung“ und „Portfoliosimulation“. 
 
-Funktionen
-Bewertung festverzinslicher Anleihen
+Funktionen: Bewertung festverzinslicher plain vanilla bonds
 
-Einschränkungen
-
-V1 unterstützt nicht:
+Einschränkungen:
+V_1 unterstützt nicht:
 
 Variabel verzinsliche Anleihen
 Kündbare Anleihen
